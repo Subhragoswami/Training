@@ -11,7 +11,7 @@ public static void main(String[] args) {
 class Camera{
 	String photo;
 	Camera(String g){
-	this.photo=photo;
+	this.photo=g;
 	}
 	void click()
 	{

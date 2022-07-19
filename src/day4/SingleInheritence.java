@@ -16,7 +16,7 @@ class Watch{
 class Smartwatch extends Watch
 {
 	void show() {
-	display();
+	super.display();
 	System.out.println("show heartrate");
 }
 }
