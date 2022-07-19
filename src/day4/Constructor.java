@@ -14,12 +14,12 @@ class Rectangle
 {
 	int length;
 	int width;
+	
 	Rectangle(int length,int width)
 	{
 	this.length=length;
 	this.width=width;
 	}
-	
 	void display(){
 	System.out.println("Area of the rectangle is = "+ length*width);
 	}

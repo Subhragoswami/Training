@@ -2,6 +2,7 @@ package day4;
 
 public class Aggregration {
 public static void main(String[] args) {
+
 	Camera c=new Camera("jpg");
 	Phone p=new Phone(c);
 	p.clickphoto();
