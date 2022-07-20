@@ -3,8 +3,8 @@ package day5;
 public class Binding {
 	public static void main(String[] args) {
 	Office o=new Josh();
-	o.m1();//early binding
-	o.m2();//late binding
+	o.m1();
+	o.m2();
 }
 }
 class Office{
