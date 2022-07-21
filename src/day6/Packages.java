@@ -5,5 +5,4 @@ public class Packages {
 	    InterfaceExample  i=new InterfaceExample ();
 	    i.m();
 	}
-	
 }
