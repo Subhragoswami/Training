@@ -36,16 +36,16 @@ class CompanyA extends Ac  implements Totalarea{//abstraction and inheritence
 		return companypassword;
 	}
 	public void colour(){
-		System.out.println("colour will be green and white");
+		System.out.println("Colour will be green and white");
 	}
 	public void size(){
-		System.out.println("company size will be 2000sqft.");
+		System.out.println("Company size will be 2000sqft.");
 	}
 	public static void ac(){
-		System.out.println("Samsung ac");
+		System.out.println("Samsung AC");
 	}
 	void temperature() {
-		System.out.println("tempurature range is in between 10 to 35 degree celcious.");
+		System.out.println("Tempurature range is in between 10 to 35 degree celcious.");
 	}
 }
 
