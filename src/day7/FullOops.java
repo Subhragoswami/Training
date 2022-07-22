@@ -27,13 +27,13 @@ class Ac{
 	
 }
 class CompanyA extends Ac  implements Totalarea{//abstraction and inheritence
-	private int companypassword;
+	private int companyPassword;
 	
 	public void setpassword(int r){
-		companypassword=r;	
+		companyPassword=r;	
 	}
 	public int getpassword() {
-		return companypassword;
+		return companyPassword;
 	}
 	public void colour(){
 		System.out.println("Colour will be green and white");
