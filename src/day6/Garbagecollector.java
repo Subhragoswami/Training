@@ -8,12 +8,12 @@ public class Garbagecollector {
 		Cricketer c2=new Cricketer();
 		System.gc();
 	}
-	}
-	class Cricketer {
-	    Cricketer(){
-	    	System.out.println("playing cricket");
+}
+class Cricketer {
+	Cricketer(){
+	    System.out.println("playing cricket");
 	    }
-	   protected void finalize() {
+	protected void finalize() {
 	    	System.out.println("listening music");
 	    }
 	}
